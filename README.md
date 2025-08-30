@@ -1,5 +1,3 @@
-Source: https://github.com/go-monk/multiple-http-servers
-
 In this post, we’ll build a command-line Go program that spins up multiple HTTP servers concurrently, each listening on its own port and serving a simple response. Usually you need just one server so it may seem like an odd thing to do at first glance. However it’s a practical way to play with and understand concurrency and the `net/http` standard library.
 
 We’ll write a Go program named `multiserv` that:
